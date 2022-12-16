@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Inconsolata:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "Inconsolata:pixelsize=15:antialias=true:autohint=true";
+static char *font = "xos4 Terminus:pixelsize=16:lcdfilter=lcddefault:hintstyle=hintnone:rgba=rgb:antialias=false:autohint=false";
 static int borderpx = 2;
 
 /*
@@ -97,6 +98,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
+#if 0 /* Matcha Scheme */
 static const char *colorname[] = {
     /* 8 normal colors */
     "#100000", /* Black */
@@ -126,6 +128,38 @@ static const char *colorname[] = {
     "#A7C7E7", /* Foreground: Pastel Blue */
     "#1B2224", /* Background: Match-dark-sea */
 };
+
+#elif 1/* Amber Theme */
+static const char *colorname[] = {
+    /* 8 normal colors */
+    "#2A1400", /* Black */
+    "#AF0A0F", /* Red */
+    "#8C8569", /* Green */
+    "#FF7700", /* Yellow */
+    "#51478E", /* Blue */
+    "#7C6A8E", /* Magenta */
+    "#8E8547", /* Cyan */
+    "#FFA64C", /* Light Gray */
+
+    /* 8 bright colors */
+    "#311700", /* Dark Gray */
+    "#FF2200", /* Red */
+    "#CCBD99", /* Green */
+    "#FFAA00", /* Yellow */
+    "#7C66CC", /* Blue */
+    "#CC99CC", /* Magenta */
+    "#CCC566", /* Cyan */
+    "#F2E8C9", /* White */
+
+    [255] = 0,
+
+    /* more colors can be added after 255 to use with DefaultXX */
+    "#FFAA00", /* Cursor: 8ch Amber */
+    "#100000", /* Reverse */
+    "#FCAF3E", /* Foreground: */
+    "#010000", /* Background: Black */
+};
+#endif
 
 
 /*
