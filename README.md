@@ -2,6 +2,22 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+This is my Char-custom branch with a few patches from st.suckless.org already applied:
+* alpha
+* blinking_cursor
+* desktopentry
+* glyph-wide-support
+* hidecursor
+
+
+TODO
+----
+* Create a new patch to paste from clipboard with Shift+MMB while keeping the current primary selection behavior
+* Apply all the scrollback patches from http://st.suckless.org/patches/scrollback/
+* Try out the anysize/anygeometry patches to see which can put the content in the middle
+    - If both can, use whichever makes the least changes. For now it looks like anysize is probably the winner.
+* Try out http://st.suckless.org/patches/ligatures/ plus Ligconsolata as the font (to avoid needing font2)
+
 
 Requirements
 ------------
