@@ -4,7 +4,9 @@ st is a simple terminal emulator for X which sucks less.
 
 This is my Char-custom branch with a tweaked default color scheme, a different default font, and a few patches from st.suckless.org already applied:
 * alpha
+* anysize
 * blinking_cursor
+* delkey
 * desktopentry
 * glyph-wide-support
 * hidecursor

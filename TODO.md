@@ -1,10 +1,3 @@
-custom fork
-----------
-Apply Patches:
-* https://st.suckless.org/patches/anysize/
-* https://st.suckless.org/patches/delkey/
-
-
 vt emulation
 ------------
 
