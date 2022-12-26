@@ -1,11 +1,6 @@
 custom fork
 ----------
 Apply Patches:
-* https://st.suckless.org/patches/scrollback/ DONE
-    + st-scrollback-reflow
-    + st-scrollback-mouse
-    + st-scrollback-mouse-altscreen
-    + st-scrollback-mouse-increment
 * https://st.suckless.org/patches/anysize/
 * https://st.suckless.org/patches/delkey/
 

@@ -9,6 +9,7 @@ This is my Char-custom branch with a tweaked default color scheme, a different d
 * glyph-wide-support
 * hidecursor
 * scrollback-ringbuffer
+* scrollback-mouse-altscreen
 
 
 Requirements
