@@ -1,3 +1,10 @@
+custom branch
+-------------
+
+* Undo patches/scrollback-ringbuffer
+* Apply patches/scrollback
+* Apply patches/scrollback-reflow
+
 vt emulation
 ------------
 
